@@ -1,11 +1,9 @@
+import xml.etree.ElementTree as ET
 print("==============================")
 print("       NMAP XML ANALYZER")
 print("==============================")
 
 print("My first cybersecurity project!")
-
-import xml.etree.ElementTree as ET
-
 
 def analyze_scan(filename):
     try:
